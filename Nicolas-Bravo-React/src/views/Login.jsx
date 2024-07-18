@@ -44,10 +44,9 @@ export default function Login() {
                         <div className="flex items-center mt-2">
                             <img src={usericon} alt="User Icon" className="mr-2" />
                             <input 
-                                type="email"
-                                id="email"
+                                id="username"
                                 className="w-full p-3 rounded-2xl bg-gray-50"
-                                name="email"
+                                name="username"
                                 placeholder="Tu Email"
                                 ref={emailRef}
                             />
